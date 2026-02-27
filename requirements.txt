@@ -1,0 +1,14 @@
+# Motor de Autorização de Benefícios Flexíveis - ISO 8583
+# Python 3.11+
+
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Banco de dados
+sqlalchemy[asyncio]>=2.0.25
+asyncpg>=0.29.0
+
+# Redis (velocity check)
+redis>=5.0.0
